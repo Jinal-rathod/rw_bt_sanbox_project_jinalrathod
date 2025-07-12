@@ -1,0 +1,112 @@
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+body {
+    color: #60697B;
+}
+
+/* Header Start */
+header {
+    background: linear-gradient(180deg, rgba(242, 243, 251, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* Navbar */
+.nav-item-links li a {
+    color: #343F52;
+    font-size: 17px;
+}
+
+/* Hero Section */
+main {
+    margin: 100px 0px;
+}
+
+.btn-1 {
+    background-color: #747ED1;
+    border: 2px solid #747ED1;
+    transform: translateY(0px);
+    transition: 0.3s transform;
+}
+
+.btn-2 {
+    border: 2px solid #747ED1;
+    color: #747ED1;
+    transform: translateY(0px);
+    transition: 0.3s transform;
+}
+
+.btn:hover {
+    background-color: #747ED1;
+    border: 2px solid #747ED1;
+    color: #fff;
+    transform: translateY(-5px);
+    transition: 0.3s transform;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #343F52;
+    font-size: 50px;
+}
+
+/* Service Section */
+.card {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card p {
+    color: #60697B;
+    font-size: 17px;
+}
+
+section {
+    margin: 100px 0px;
+}
+
+h4,
+h2 {
+    color: #343F52;
+}
+
+.service-p{
+    font-size: 18px;
+}
+
+/* Footer Section */
+.letter-bg {
+    background-image: url(../asset/images/bg4.jpg);
+    background-position: bottom;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin: auto;
+    padding: 15px;
+}
+
+.input-btn {
+    height: 49px;
+    width: 90px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #747dd1;
+    border: none;
+    font-size: 17px;
+    color: #FFF;
+}
+
+footer {
+    background: linear-gradient(1deg, rgba(244, 245, 252, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+
+.list li a{
+    color: #60697B;
+    font-size: 17px;
+}
+
